@@ -1,0 +1,225 @@
+- type: single_box_strip
+  keychain: ['Faculty']
+  bars: ['FTE TT','FTE NTT','FTE Vacant','FTE ProfPrac','FTE NTT Teaching','FTE NTT Research']
+  width: 9
+  xlabel: "# FTE"
+  filename: 01_faculty_counts.png
+- type: single_box_strip
+  keychain: ['Faculty']
+  bars: ['Typical term course load','Load/term ProfPrac','Load/term NTT Teaching']
+  barlabels: ['Course load','...ProfPract','...NTT/Teach']
+  width: 9
+  xlabel: "courses per term"
+  filename: 02_faculty_loads.png
+- type: single_box_strip
+  keychain: ['Faculty','Startup Asst']
+  bars: ['Equipment funding','Unrestricted funds','Relocation funds','Travel funds','Other support','Total package']
+  width: 7
+  xlabel: "$1000"
+  special: ['ax.set_xticks(range(0,1500000,200000),[str(x) for x in range(0,1500,200)])']
+  filename: 04_faculty_startup_funding.png
+- type: single_box_strip
+  keychain: ['Faculty','Startup Asst']
+  bars: ['Summer salary','Grad student support']
+  width: 7
+  filename: 05_faculty_startup_support_months.png
+- type: single_box_strip
+  keychain: ['Faculty','Startup Asst']
+  bars: ['Teaching load']
+  xlabel: "courses per term"
+  width: 7
+  filename: 06_faculty_startup_teaching_load.png
+- type: single_box_strip
+  keychain: ['Research']
+  bars: ['Annual expenditures']
+  width: 7
+  xlabel: "M$"
+  special: ['ax.set_xticks(range(2500000,20000000,2500000),[f"{x:.1f}" for x in np.arange(2.5,20.0,2.5)])']
+  filename: 07_research_expenditures.png
+- type: scatter
+  xdataset:
+    key: Faculty
+    values: FTE TT
+  ydataset:
+    key: Research
+    values: Annual expenditures
+    scaleby: 0.001
+  transform:
+    replace: ydataset
+    operation: y/x
+  xlabel: "# FTE TT"
+  ylabel: "Expenditures per FTE TT ($1000)"
+  figsize: [7,5]
+  filename: 07-01_exptt_per_tt.png
+- type: scatter
+  xdataset:
+    key: Faculty
+    values: FTE TT
+  ydataset:
+    key: Research
+    values: Number of ISI pubs
+  transform:
+    replace: ydataset
+    operation: y/x
+  xlabel: "# FTE TT"
+  ylabel: "ISI Pubs per FTE TT"
+  figsize: [7,5]
+  filename: 07-02_pub-per-tt_v_fte-tt.png
+- type: single_box_strip
+  keychain: ['Research']
+  bars: ['Number of ISI pubs']
+  width: 7
+  filename: 08_publications.png
+- type: single_box_strip
+  keychain: ['Research']
+  bars: ['Overhead rate(%)','frac OHR dept','frac OHR PI']
+  barlabels: ['Overhead rate','Frac OHR dept','Frac OHR PI']
+  width: 7
+  filename: 09_overhead.png
+- type: single_box_strip
+  keychain: ['Budget']
+  xlabel: "M$"
+  special: ['ax.set_xticks(range(0,9000000,2000000),[f"{x:.1f}" for x in np.arange(0,9,2)])']
+  width: 7
+  filename: 10_budget.png
+- type: single_box_strip
+  keychain: ['Staff']
+  bars: ['FTE total admin','FTE grad student svcs','FTE ugrad student svcs','FTE grants staff','FTE technical staff','FTE facilities staff','# development staff','# staff FTE supported at college/campus level']
+  barlabels: ['Total admin','Grad student svcs','UG student svcs','Grants staff','Technical staff','Facilities staff','Development staff','Supported at college/campus level']
+  xlabel: "# FTE"
+  width: 7
+  filename: 11_staff_counts.png
+- type: scatter
+  xdataset:
+    key: Staff
+    values: FTE grants staff
+  ydataset:
+    key: Research
+    values: Annual expenditures
+    scaleby: 0.001
+  xlabel: "# FTE grants staff"
+  ylabel: "Expenditures ($1000)"
+  figsize: [7,5]
+  filename: 11-01_exp_v_grantstaff.png
+- type: single_box_strip
+  keychain: ['Staff']
+  bars: ['Avg postdoc salary','12-mo cost of PhD student']
+  xlabel: "$"
+  width: 7
+  filename: 12_postdoc_phd_cost.png
+- type: single_box_strip
+  keychain: ['Undergrad Program']
+  bars: ['% URM','% Female','% Intl']
+  barlabels: ['URM','Female','Intl']
+  xlabel: "fraction"
+  width: 7
+  filename: 13_ug_demographics.png
+- type: single_box_strip
+  keychain: ['Undergrad Program']
+  bars: ['Total UG graduated','UG to industry','UG to grad school','UG ro prof school','UG unemployed','UG returned to home country','UG to other']
+  barlabels: ['Total graduated','To industry','To grad sch','To prof sch','Unemployed','Ret to home ctry','Other']
+  xlabel: "# UG students"
+  filename: 16_ug_grads.png
+- type: single_box_strip
+  keychain: ['Undergrad Program']
+  bars: ['# grads w at least one coop/internship','# grads w research experience','# grads w who studied abroad','# grads w no outside classroom experience']
+  barlabels: ['>= 1 coop/intern.','Research exp','Studied abroad','No outside classroom experience']
+  xlabel: "# UG graduates"
+  filename: 17_ug_grads_experiential.png
+- type: scatter
+  xdataset:
+    key: Undergrad Program
+    values: Total UG graduated
+  ydataset:
+    key: Undergrad Program
+    values: '# grads w at least one coop/internship'
+  xlabel: '# BS graduates'
+  ylabel: '# BS graduates w/ >=1 co-op/internsh.'
+  filename: 17-01_coop_v_bsgrad.png
+- type: scatter
+  xdataset:
+    key: Undergrad Program
+    values: Total UG graduated
+  ydataset:
+    key: Undergrad Program
+    values: '# grads w at least one coop/internship'
+  transform:
+    replace: ydataset
+    operation: y/x
+  xlabel: '# BS graduates'
+  ylabel: 'Frac. BS graduates w/ >=1 co-op/internsh.'
+  filename: 17-02_frac_coop_v_bsgrad.png
+- type: single_box_strip
+  keychain: ['Grad Program']
+  bars: ['Total MS/PhD enrollment','Total # MS','# American MS','Total # PhD','# American PhD']
+  barlabels: ['All MS/PhD enroll.','All MS','American MS','All PhD','American PhD']
+  xlabel: "# students"
+  filename: 18_grad_counts.png
+- type: scatter
+  xdataset:
+    key: Grad Program
+    values: 'Total # MS'
+  ydataset:
+    key: Grad Program
+    values: '# American MS'
+  transform:
+    replace: ydataset
+    operation: y/x
+  xlabel: "Total # MS"
+  ylabel: "Frac. American"
+  filename: 18-02_fracAmericanMS_vs_MS.png
+- type: scatter
+  xdataset:
+    key: Grad Program
+    values: 'Total # PhD'
+  ydataset:
+    key: Grad Program
+    values: '# American PhD'
+  transform:
+    replace: ydataset
+    operation: y/x
+  xlabel: "Total # PhD"
+  ylabel: "Frac. American"
+  filename: 18-03_fracAmericanPhD_vs_PhD.png
+- type: single_box_strip
+  keychain: ['Grad Program']
+  bars: ['Total # US minority grad students','# Female grad students','# For-pay masters students','# Unsupported/other']
+  barlabels: ['US minority','Female','For-pay masters','Unsupported/other']
+  xlabel: "# grad students"
+  filename: 19_grad_more_counts.png
+- type: single_box_strip
+  keychain: ['Grad Program']
+  bars: ['Total # support GTA/GRA','# Dept supported TAs','# Non-dept supported TAs','# Research Assts supported','# Students w outside fellowships']
+  barlabels: ['GTA/GRA','Dept supported TAs','Non-dept supported TAs','GRA','Outside fellowships']
+  xlabel: "# students"
+  filename: 20_RA_TA.png
+- type: single_box_strip
+  keychain: ['Grad Program']
+  bars: ['Months of non-research support for new PhD students']
+  barlabels: ['Support for new PhD students']
+  xlabel: "months"
+  filename: 21_supp_new_phd.png
+- type: single_box_strip
+  keychain: ['Grad Program']
+  bars: ['Avg annual cost to student','$ signing bonus']
+  xlabel: "$"
+  filename: 22_phd_cost_to_student_signing_bonus.png
+- type: single_box_strip
+  keychain: ['Grad Program']
+  bars: ['Total MS degrees granted','# MS to industry','# MS to academia','# MS to PhD','# MS to govt','# MS unknown']
+  barlabels: ['Graduates','To industry','To academia','To PhD','To govt','Unknown']
+  xlabel: "# MS students"
+  filename: 23_ms_counts.png
+- type: single_box_strip
+  keychain: ['Grad Program']
+  bars: ['Total PhD degrees granted','# PhD to industry','# PhD to academia/postdoc','# PhD unemployed','# PhD unknown']
+  barlabels: ['Graduates','To industry','To academia/postdoc','Unemployed','Unknown']
+  xlabel: "# PhD students"
+  filename: 24_phd_counts.png
+- type: single_box_strip
+  keychain: ['Grad Program']
+  bars: ['BS to MS average time to degree, months','BS to PhD time to degree, months','MS to PhD time to degree, months']
+  barlabels: ['BS to MS','BS to PhD','MS to PhD']
+  xlabel: "average time to degree, months"
+  filename: 25_time_to_degree.png
+

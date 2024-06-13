@@ -1,0 +1,2121 @@
+Faculty:
+  FTE TT:
+    dataset:
+    - 24
+    - 9
+    - 21
+    - 25
+    - 11
+    - 20
+    - 21
+    - 13
+    - 13
+    - 16
+    - 17.5
+    - 8
+    - 11
+    - 11
+    - 15.63
+    - 9
+  FTE NTT:
+    dataset:
+    - 3
+    - 1
+    - 2
+    - 2
+    - 2.5
+    - 5
+    - 4
+    - 3
+    - 2
+    - 3
+    - 0
+    - 2
+    - 2
+    - 0
+    - 1.5
+    - 1
+  FTE Vacant:
+    dataset:
+    - 0
+    - 1
+    - 0
+    - 3
+    - 0
+    - 1
+    - 3
+    - .nan
+    - 0
+    - 2
+    - 0
+    - .nan
+    - 0
+    - 1
+    - 0
+    - .nan
+  FTE ProfPrac:
+    dataset:
+    - 0
+    - 1
+    - .nan
+    - 2.5
+    - 0
+    - .nan
+    - 0
+    - 2
+    - 0
+    - .nan
+    - .nan
+    - 2
+    - .nan
+    - 0
+    - 0
+    - .nan
+  Load/term ProfPrac:
+    dataset:
+    - 0
+    - 4
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - 3
+    - .nan
+    - .nan
+    - .nan
+    - 3
+    - .nan
+    - 0
+    - 0
+    - .nan
+  Typical term course load:
+    dataset:
+    - 1.5
+    - 2.11
+    - 1
+    - .nan
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    - 2
+    - 1.5
+    - 1.5
+    - 1
+    - 2
+  FTE NTT Teaching:
+    dataset:
+    - 3
+    - 2
+    - 2
+    - .nan
+    - 2.5
+    - 3
+    - 4
+    - 2.5
+    - 2
+    - .nan
+    - 0.65
+    - 1
+    - 2
+    - 0
+    - 1.5
+    - 1
+  Load/term NTT Teaching:
+    dataset:
+    - 3
+    - 2
+    - 2
+    - .nan
+    - 2
+    - 3
+    - 3
+    - 3
+    - 3
+    - .nan
+    - .nan
+    - 2
+    - 3
+    - 0
+    - 3
+    - 3
+  FTE NTT Research:
+    dataset:
+    - 2
+    - 0
+    - .nan
+    - .nan
+    - 1
+    - 2
+    - 1
+    - 1
+    - 2
+    - 0
+    - .nan
+    - .nan
+    - 11
+    - 0
+    - 0
+    - 1
+  Course buyout reqd to reduce load:
+    dataset:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    - .nan
+    - 0
+    - .nan
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+  Salary:
+    Asst:
+      High:
+        dataset:
+        - 112398
+        - 86581
+        - 131800
+        - 136515
+        - 114850
+        - 108223.82
+        - 116537
+        - .nan
+        - .nan
+        - 122298
+        - .nan
+        - .nan
+        - 125550.71
+        - 121178
+        - 130495
+        - 100913
+      Avg:
+        dataset:
+        - 106055
+        - 88202
+        - 122520
+        - 127305
+        - 110950
+        - 105448.835
+        - 111798
+        - 112500
+        - .nan
+        - 115391
+        - .nan
+        - 120000
+        - 112680.07
+        - 117857
+        - 120543
+        - 100913.02
+      Low:
+        dataset:
+        - 97920
+        - 87543
+        - 115000
+        - 120000
+        - 108000
+        - 102367.03
+        - 108420
+        - .nan
+        - .nan
+        - 108484
+        - .nan
+        - .nan
+        - 105000
+        - 115000
+        - 113000
+        - 100913
+      New hire:
+        dataset:
+        - 105000
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - 108000
+        - 110000
+        - .nan
+        - .nan
+        - .nan
+        - 120000
+        - .nan
+        - 115000
+        - 113000
+        - .nan
+    Assoc:
+      High:
+        dataset:
+        - 128185
+        - .nan
+        - 162400
+        - 179436
+        - 136431
+        - 122451.03
+        - 185503
+        - .nan
+        - .nan
+        - 137674
+        - .nan
+        - .nan
+        - 148316.27
+        - 138337
+        - 148008
+        - 131404
+      Avg:
+        dataset:
+        - 123536
+        - .nan
+        - 150575
+        - 166344
+        - 134610
+        - 120974.052
+        - 154596
+        - 118500
+        - .nan
+        - 135089
+        - .nan
+        - 140000
+        - 134993.76
+        - 132638
+        - 135714
+        - 122918
+      Low:
+        dataset:
+        - 115490
+        - .nan
+        - 141500
+        - 156715
+        - 132131
+        - 119043.67
+        - 134483
+        - .nan
+        - .nan
+        - 132503
+        - .nan
+        - .nan
+        - 121671.25
+        - 129544
+        - 118005
+        - 117945
+      New hire:
+        dataset:
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - 0
+        - .nan
+    Full:
+      High:
+        dataset:
+        - 305341
+        - 168352
+        - 323100
+        - 316381
+        - 207957
+        - 258849.41
+        - 236609
+        - .nan
+        - .nan
+        - 273940
+        - .nan
+        - .nan
+        - 239367.99
+        - 208718
+        - 288431
+        - 193324
+      Avg:
+        dataset:
+        - 192710
+        - 147711
+        - 218200
+        - 222548
+        - 172502
+        - 199848.35857142857
+        - 212911
+        - 208100
+        - .nan
+        - 215645
+        - .nan
+        - 170000
+        - 210809.97
+        - 171979
+        - 213984
+        - 181442
+      Low:
+        dataset:
+        - 119268
+        - 129176
+        - 132500
+        - 176555
+        - 148416
+        - 141179.3
+        - 170600
+        - .nan
+        - .nan
+        - 157350
+        - .nan
+        - .nan
+        - 187472.23
+        - 143779
+        - 167411
+        - 168642
+      New hire:
+        dataset:
+        - .nan
+        - .nan
+        - .nan
+        - 230400
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - .nan
+        - 0
+        - .nan
+  Startup Asst:
+    Research area:
+      dataset:
+      - Computational
+      - Biomaterials
+      - Polymers
+      - Computational
+      - .nan
+      - .nan
+      - sustainability
+      - Bio
+      - .nan
+      - - energy
+        - fluids
+      - .nan
+      - .nan
+      - Molecular-level computational modeling of polymeric and composite materials.
+        Polymer electrolytes for energy storage and conversion.
+      - .nan
+      - zeolite synthesis and heterogenous catalysis
+      - Environ. Nano
+    Equipment funding:
+      dataset:
+      - 140000
+      - .nan
+      - 550000
+      - .nan
+      - .nan
+      - .nan
+      - 659211
+      - 750000
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - 1028950
+      - 867700
+      - .nan
+    Unrestricted funds:
+      dataset:
+      - 100000
+      - 500000
+      - 1100000
+      - .nan
+      - .nan
+      - .nan
+      - 220951
+      - 750000
+      - .nan
+      - 775000
+      - .nan
+      - 450000
+      - 750000
+      - 277665
+      - .nan
+      - 470000
+    Summer salary:
+      dataset:
+      - 4.33
+      - 4
+      - 4
+      - .nan
+      - .nan
+      - .nan
+      - 4
+      - 4
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - 2.5
+      - 4
+      - 6.2
+      - 4
+    Grad student support:
+      dataset:
+      - 4.28
+      - 6
+      - 5
+      - 6
+      - .nan
+      - .nan
+      - 4
+      - 4
+      - .nan
+      - 6
+      - .nan
+      - 8.8
+      - 3.5
+      - 4
+      - 9.6
+      - 4
+    Teaching load:
+      dataset:
+      - 1
+      - 1
+      - 1
+      - .nan
+      - .nan
+      - .nan
+      - 0.5
+      - 1
+      - .nan
+      - 1
+      - .nan
+      - 1
+      - 1
+      - 1
+      - 0.8
+      - 1
+    Relocation funds:
+      dataset:
+      - .nan
+      - 10000
+      - 10000
+      - 10000
+      - .nan
+      - .nan
+      - 25000
+      - 15000
+      - .nan
+      - 8000
+      - .nan
+      - 20000
+      - 20000
+      - 0
+      - 12000
+      - .nan
+    Travel funds:
+      dataset:
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - 30000
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - 0
+      - 84000
+      - 15000
+    Other support:
+      dataset:
+      - 104000
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - 199350
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - 10000
+      - 280000
+      - 0
+      - 140000
+      - .nan
+    Total package:
+      dataset:
+      - 680235
+      - .nan
+      - 1100000
+      - .nan
+      - .nan
+      - .nan
+      - 1500000.0
+      - 1250000
+      - .nan
+      - .nan
+      - .nan
+      - 800000
+      - 1330000
+      - .nan
+      - 1458213
+      - 651850
+Research:
+  Annual expenditures:
+    dataset:
+    - 10200000
+    - .nan
+    - 12570909
+    - 10947662
+    - 3886598
+    - 5304306
+    - 5878242
+    - 8200000
+    - .nan
+    - 7259548.98
+    - 17512575
+    - 2260000
+    - 1487223.99
+    - .nan
+    - 14456628
+    - 1133236
+  Number of ISI pubs:
+    dataset:
+    - 167
+    - .nan
+    - .nan
+    - 4
+    - 66
+    - 123
+    - .nan
+    - .nan
+    - .nan
+    - 64
+    - .nan
+    - .nan
+    - 20
+    - .nan
+    - .nan
+    - 28
+  Overhead rate(%):
+    dataset:
+    - 0.61
+    - 0.54
+    - 0.645
+    - 0.64
+    - 0.515
+    - 0.535
+    - 0.58
+    - 0.634
+    - 0.565
+    - 0.61
+    - 0.62
+    - 0.595
+    - 0.634
+    - .nan
+    - 0.56
+    - 0.545
+  frac OHR dept:
+    dataset:
+    - 0.04
+    - 0
+    - 0.1
+    - 0.15
+    - 0.075
+    - 0.025
+    - 0
+    - 0
+    - 0.04
+    - 0.08
+    - 0.032
+    - 0.09
+    - 0.15
+    - .nan
+    - .nan
+    - 0.1
+  frac OHR PI:
+    dataset:
+    - 0
+    - 0.06
+    - 0.02
+    - 0.02
+    - 0.075
+    - 0.05
+    - 0.07
+    - 0.01
+    - 0.2
+    - 0.1
+    - 0.0645
+    - 0.045
+    - 0.45
+    - .nan
+    - .nan
+    - 0.1
+Budget:
+  Faculty:
+    dataset:
+    - 4316503
+    - .nan
+    - 3615100
+    - 4441172
+    - 1711355
+    - 3223516
+    - 3032459
+    - .nan
+    - .nan
+    - 3250485.14
+    - .nan
+    - .nan
+    - 1580961.75
+    - 1484966
+    - 2681393
+    - .nan
+  NTT Istr/ProfPrac:
+    dataset:
+    - 284539
+    - .nan
+    - 251275
+    - 396794
+    - 246704
+    - 277934
+    - 460000
+    - .nan
+    - .nan
+    - 228643.67
+    - .nan
+    - .nan
+    - 212847.95
+    - 0
+    - 10000
+    - .nan
+  Staff:
+    dataset:
+    - 441233
+    - .nan
+    - 695031
+    - 914342
+    - 196578
+    - 586748
+    - 507000
+    - .nan
+    - .nan
+    - 389969.43
+    - 895130
+    - .nan
+    - 252275.91
+    - 211362
+    - 476601
+    - .nan
+  TA Support:
+    dataset:
+    - 524331
+    - .nan
+    - 595170
+    - 585067
+    - 96000
+    - 1380000
+    - 563400
+    - .nan
+    - .nan
+    - 467398.92
+    - .nan
+    - 180000
+    - 621591
+    - 153615
+    - 0
+    - .nan
+  Operating/Current exp:
+    dataset:
+    - 262710
+    - 45000
+    - 301000
+    - 1730719
+    - 933929
+    - 3200000
+    - 190000
+    - .nan
+    - .nan
+    - 191533.86
+    - 1260883
+    - 30000
+    - 61396.03
+    - 104181
+    - 225000
+    - .nan
+  Hard budget funds:
+    dataset:
+    - 5829316
+    - .nan
+    - .nan
+    - 5047869
+    - 3078661
+    - 8668198
+    - 6495082.83
+    - .nan
+    - .nan
+    - 3931989.83
+    - 2114358
+    - .nan
+    - 101069
+    - .nan
+    - 3939092
+    - .nan
+  Student fees:
+    dataset:
+    - 166184
+    - 0
+    - .nan
+    - 689718
+    - 0
+    - .nan
+    - 0
+    - .nan
+    - .nan
+    - 194723.31
+    - 0
+    - .nan
+    - 0
+    - .nan
+    - 0
+    - .nan
+  Add'l soft money:
+    dataset:
+    - 109453
+    - 10000
+    - .nan
+    - 2649480
+    - 41746
+    - .nan
+    - 0
+    - .nan
+    - .nan
+    - 524302.36
+    - 1025628
+    - .nan
+    - .nan
+    - 44726
+    - 94146
+    - .nan
+  Total Hard+Soft:
+    dataset:
+    - 6104953
+    - 55000
+    - 0
+    - 8387067
+    - 3120407
+    - 8668198
+    - 6495082.83
+    - 0
+    - 0
+    - 4651015.5
+    - 3139986
+    - 0
+    - 101069
+    - .nan
+    - 4033238
+    - 0
+Staff:
+  FTE total admin:
+    dataset:
+    - 1
+    - 1
+    - 6.5
+    - 4
+    - 3
+    - 5
+    - 5
+    - .nan
+    - 1
+    - 7
+    - 10.45
+    - 3.8
+    - 3
+    - 2
+    - 5.48
+    - 1.5
+  FTE grad student svcs:
+    dataset:
+    - 2
+    - .nan
+    - 3
+    - 0.5
+    - 1
+    - 20
+    - 0.5
+    - .nan
+    - .nan
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - .nan
+  FTE ugrad student svcs:
+    dataset:
+    - 1
+    - .nan
+    - 3
+    - 0
+    - 1
+    - .nan
+    - 0.5
+    - .nan
+    - .nan
+    - 1
+    - 1
+    - 0.8
+    - 1
+    - 0
+    - 0.5
+    - .nan
+  FTE grants staff:
+    dataset:
+    - 0
+    - .nan
+    - 2
+    - 0
+    - 1
+    - .nan
+    - 0
+    - .nan
+    - .nan
+    - 2
+    - 4
+    - 1
+    - 0
+    - 0
+    - 3.5
+    - .nan
+  FTE technical staff:
+    dataset:
+    - 1
+    - .nan
+    - 0
+    - 1.8
+    - 0
+    - 2
+    - 3
+    - .nan
+    - 1
+    - 1
+    - 1.85
+    - 1
+    - 1
+    - 0
+    - 0.5
+    - 1.5
+  FTE facilities staff:
+    dataset:
+    - 1
+    - .nan
+    - 0
+    - 0
+    - 0
+    - .nan
+    - 0
+    - .nan
+    - .nan
+    - 0
+    - 0
+    - .nan
+    - .nan
+    - 0
+    - 0.33
+    - .nan
+  '# development staff':
+    dataset:
+    - 0
+    - .nan
+    - 0
+    - 0
+    - 0
+    - .nan
+    - 1
+    - .nan
+    - .nan
+    - 0
+    - 0
+    - .nan
+    - .nan
+    - 0
+    - 0
+    - .nan
+  '# staff FTE supported at college/campus level':
+    dataset:
+    - 6
+    - .nan
+    - 6.5
+    - 10.5
+    - 0.5
+    - .nan
+    - 10
+    - .nan
+    - .nan
+    - 0
+    - 1
+    - 0.2
+    - .nan
+    - 0
+    - 1
+    - .nan
+  Avg postdoc salary:
+    dataset:
+    - 54866
+    - 50000
+    - 70000
+    - 56880
+    - 61522
+    - 56484
+    - 75000
+    - 56000
+    - .nan
+    - .nan
+    - 68255
+    - 60000
+    - 70000
+    - 60000
+    - 64674
+    - 57000
+  12-mo cost of PhD student:
+    dataset:
+    - 79500
+    - .nan
+    - 102410
+    - 87747
+    - 59154
+    - 69365
+    - 74668.86
+    - 99250
+    - .nan
+    - .nan
+    - 117060
+    - 60000
+    - 100135.22
+    - .nan
+    - 69677
+    - 79250
+Undergrad Program:
+  Common Freshman Year?:
+    dataset:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  Total enrollment:
+    dataset:
+    - 184
+    - 187
+    - 63
+    - 89
+    - 188
+    - 219
+    - 377
+    - 263
+    - 190
+    - 185
+    - 90
+    - 120
+    - 131
+    - 98
+    - 176
+    - 105
+  Total enrollment incl. freshmen?:
+    dataset:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  '% URM':
+    dataset:
+    - 0.16
+    - .nan
+    - 0.3492
+    - 0.233
+    - 0.14
+    - 0.3698630136986301
+    - 0.10344827586206896
+    - .nan
+    - .nan
+    - 0.162
+    - .nan
+    - .nan
+    - 0.1627
+    - .nan
+    - 0.12
+    - 0.2
+  '% Female':
+    dataset:
+    - 0.37
+    - .nan
+    - 0.5714
+    - 0.4778
+    - 0.44
+    - 0.3607305936073059
+    - 0.5092838196286472
+    - 0.44
+    - .nan
+    - 0.26
+    - 0.65
+    - .nan
+    - 0.6511
+    - .nan
+    - 0.5
+    - 0.41
+  '% Intl':
+    dataset:
+    - 0.08
+    - .nan
+    - 0.19
+    - 0.1
+    - 0.13
+    - 0.0502283105022831
+    - 0.0636604774535809
+    - 0.15
+    - .nan
+    - 0.081
+    - .nan
+    - .nan
+    - 0.0465
+    - .nan
+    - .nan
+    - 0
+  Total UG graduated:
+    dataset:
+    - 54
+    - 54
+    - 24
+    - 69
+    - 72
+    - 71
+    - 86
+    - 53
+    - .nan
+    - 65
+    - 33
+    - 34
+    - 51
+    - 27
+    - 56
+    - 28
+  UG to industry:
+    dataset:
+    - .nan
+    - 50
+    - .nan
+    - 30
+    - 50
+    - .nan
+    - 68.542
+    - .nan
+    - .nan
+    - 9
+    - 12
+    - .nan
+    - .nan
+    - .nan
+    - 30
+    - .nan
+  UG to grad school:
+    dataset:
+    - .nan
+    - 3
+    - .nan
+    - 10
+    - 4
+    - .nan
+    - 14.534
+    - .nan
+    - .nan
+    - 3
+    - 14
+    - .nan
+    - .nan
+    - .nan
+    - 4
+    - .nan
+  UG ro prof school:
+    dataset:
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - 1
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - 0
+    - 2
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+  UG unemployed:
+    dataset:
+    - .nan
+    - .nan
+    - .nan
+    - 3
+    - .nan
+    - .nan
+    - 1.4620000000000002
+    - .nan
+    - .nan
+    - 13
+    - 4
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+  UG returned to home country:
+    dataset:
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - 0
+    - 1
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+  UG to other:
+    dataset:
+    - 54
+    - 1
+    - 24
+    - 26
+    - 17
+    - 71
+    - 1.461999999999989
+    - 53
+    - 0
+    - 40
+    - 0
+    - 34
+    - 51
+    - .nan
+    - 22
+    - 28
+  '# grads w at least one coop/internship':
+    dataset:
+    - 24
+    - 54
+    - .nan
+    - .nan
+    - 72
+    - 15
+    - 0.9418604651162791
+    - 53
+    - .nan
+    - 21
+    - .nan
+    - .nan
+    - 6
+    - .nan
+    - 32
+    - .nan
+  '# grads w research experience':
+    dataset:
+    - 7
+    - 25
+    - .nan
+    - .nan
+    - 9
+    - 7
+    - .nan
+    - 30
+    - .nan
+    - 25
+    - 33
+    - .nan
+    - .nan
+    - .nan
+    - 18
+    - .nan
+  '# grads w who studied abroad':
+    dataset:
+    - 0
+    - 1
+    - .nan
+    - .nan
+    - 1
+    - 3
+    - .nan
+    - 4
+    - .nan
+    - 2
+    - 1
+    - .nan
+    - 5
+    - .nan
+    - 6
+    - .nan
+  '# grads w no outside classroom experience':
+    dataset:
+    - 0
+    - 0
+    - .nan
+    - .nan
+    - 0
+    - .nan
+    - 0
+    - .nan
+    - .nan
+    - 17
+    - 0
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+Grad Program:
+  Total MS/PhD enrollment:
+    dataset:
+    - 149
+    - 20
+    - 261
+    - 133
+    - 39
+    - 93
+    - 125
+    - 67
+    - 50
+    - 81
+    - 106
+    - 36
+    - 51
+    - 72
+    - 61
+    - 18
+  'Total # MS':
+    dataset:
+    - 59
+    - 5
+    - 171
+    - 35
+    - 5
+    - 48
+    - 39
+    - 10
+    - 27
+    - 8
+    - 1
+    - 15
+    - 21
+    - 38
+    - 8
+    - 4
+  '# American MS':
+    dataset:
+    - 17
+    - 1
+    - 39
+    - .nan
+    - 1
+    - 26
+    - 18
+    - 7
+    - .nan
+    - 1
+    - 1
+    - 10
+    - 2
+    - .nan
+    - 7
+    - 4
+  'Total # PhD':
+    dataset:
+    - 90
+    - 15
+    - 90
+    - 98
+    - 34
+    - 45
+    - 86
+    - 57
+    - 23
+    - 73
+    - 105
+    - 21
+    - 30
+    - 34
+    - 53
+    - 14
+  '# American PhD':
+    dataset:
+    - 26
+    - 0
+    - 50
+    - .nan
+    - 13
+    - 8
+    - 55
+    - 19
+    - .nan
+    - 22
+    - 81
+    - .nan
+    - 2
+    - .nan
+    - 26
+    - 5
+  'Total # US minority grad students':
+    dataset:
+    - 18.5
+    - 0
+    - 15
+    - .nan
+    - 1
+    - 10
+    - 6
+    - .nan
+    - .nan
+    - 3
+    - 10
+    - 8
+    - .nan
+    - .nan
+    - 3
+    - 2
+  '# Female grad students':
+    dataset:
+    - 47.5
+    - 9
+    - 110
+    - .nan
+    - 10
+    - 28
+    - 44
+    - 34
+    - .nan
+    - 23
+    - 43
+    - 9
+    - .nan
+    - .nan
+    - 15
+    - 6
+  'Total # support GTA/GRA':
+    dataset:
+    - 149
+    - 20
+    - 261
+    - 98
+    - 40
+    - 45
+    - 123
+    - 67
+    - 23
+    - 81
+    - 106
+    - 36
+    - 30
+    - .nan
+    - .nan
+    - 18
+  '# Dept supported TAs':
+    dataset:
+    - 5.5
+    - 7
+    - 17
+    - 10
+    - .nan
+    - 20
+    - 18
+    - 11
+    - 7
+    - 3.5
+    - 35
+    - 6
+    - 12
+    - 4
+    - .nan
+    - 4
+  '# Non-dept supported TAs':
+    dataset:
+    - 0.5
+    - 0
+    - 5
+    - 2
+    - 0
+    - .nan
+    - 3
+    - 8
+    - .nan
+    - 0
+    - 13
+    - .nan
+    - 2
+    - .nan
+    - .nan
+    - .nan
+  '# Research Assts supported':
+    dataset:
+    - 76
+    - 13
+    - 50
+    - 64
+    - 34
+    - 25
+    - 60
+    - 33
+    - .nan
+    - 61.5
+    - 42
+    - 15
+    - 16
+    - .nan
+    - .nan
+    - 14
+  '# Students w outside fellowships':
+    dataset:
+    - 8
+    - 0
+    - 18
+    - 22
+    - 1
+    - .nan
+    - 3
+    - 5
+    - .nan
+    - 8
+    - 15
+    - .nan
+    - 0
+    - .nan
+    - .nan
+    - .nan
+  '# For-pay masters students':
+    dataset:
+    - 59
+    - 0
+    - 171
+    - .nan
+    - 5
+    - .nan
+    - 39
+    - 10
+    - .nan
+    - 8
+    - 1
+    - 15
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+  '# Unsupported/other':
+    dataset:
+    - 0
+    - 0
+    - 0
+    - 35
+    - -1
+    - 48
+    - 2
+    - 0
+    - 27
+    - 0
+    - 0
+    - 0
+    - 21
+    - 72
+    - .nan
+    - 0
+  Months of non-research support for new PhD students:
+    dataset:
+    - 0
+    - 0
+    - 12
+    - 6
+    - .nan
+    - 24
+    - 9
+    - 12
+    - .nan
+    - 4.5
+    - 10
+    - 8
+    - .nan
+    - 5.5
+    - .nan
+    - 1
+  Stipends:
+    MS:
+      dataset:
+      - 0
+      - 29900
+      - 0
+      - 0
+      - 0
+      - .nan
+      - 0
+      - .nan
+      - .nan
+      - 0
+      - 0
+      - .nan
+      - 38044.44
+      - 0
+      - 42566
+      - 36889
+    PhD:
+      dataset:
+      - 30500
+      - 29900
+      - 45680
+      - 43326
+      - 33000
+      - 39000
+      - 45000
+      - 35867
+      - .nan
+      - 37572.6
+      - 50400
+      - 34000
+      - 40281.94
+      - 38500
+      - 43398
+      - 40000
+  Avg annual cost to student:
+    dataset:
+    - 552
+    - .nan
+    - 0
+    - .nan
+    - .nan
+    - 0
+    - 1000
+    - 2500
+    - .nan
+    - .nan
+    - 0
+    - .nan
+    - 2204
+    - .nan
+    - .nan
+    - 1638
+  $ signing bonus:
+    dataset:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - .nan
+    - 0
+    - .nan
+    - .nan
+    - 0
+    - 0
+    - .nan
+    - .nan
+    - .nan
+    - 0
+    - .nan
+  Total MS degrees granted:
+    dataset:
+    - 14
+    - 7
+    - 0
+    - 21
+    - 18
+    - 21
+    - 13
+    - 7
+    - 0
+    - 5
+    - 1
+    - 0
+    - 5
+    - .nan
+    - 6
+    - 0
+  '# MS to industry':
+    dataset:
+    - .nan
+    - 5
+    - .nan
+    - 3
+    - 18
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - 2
+    - .nan
+  '# MS to academia':
+    dataset:
+    - .nan
+    - .nan
+    - .nan
+    - 3
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+  '# MS to PhD':
+    dataset:
+    - 2
+    - 2
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - 2
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+  '# MS to other prof school':
+    dataset:
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+  '# MS to govt':
+    dataset:
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - 1
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+  '# MS to other (incl return home cntry)':
+    dataset:
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+  '# MS unemployed':
+    dataset:
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+  '# MS unknown':
+    dataset:
+    - 0
+    - 0
+    - 0
+    - 15
+    - 0
+    - 0
+    - 13
+    - 7
+    - 0
+    - 3
+    - 0
+    - 0
+    - .nan
+    - 0
+    - 4
+    - 0
+  BS to MS average time to degree, months:
+    dataset:
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - 24
+    - 24
+    - 9
+    - .nan
+    - 18
+    - 22
+    - .nan
+    - .nan
+    - .nan
+    - 15
+    - 24
+  Total PhD degrees granted:
+    dataset:
+    - 9
+    - 5
+    - 9
+    - 12
+    - .nan
+    - 13
+    - 0
+    - 12
+    - 0
+    - 8
+    - 23
+    - 3
+    - 1
+    - .nan
+    - 15
+    - 0
+  '# PhD to industry':
+    dataset:
+    - .nan
+    - 5
+    - .nan
+    - 2
+    - 4
+    - 8
+    - .nan
+    - .nan
+    - .nan
+    - 7
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - 6
+    - .nan
+  '# PhD to academia/postdoc':
+    dataset:
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - 5
+    - .nan
+    - .nan
+    - .nan
+    - 1
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - 4
+    - .nan
+  '# PhD to prof school':
+    dataset:
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+  '# PhD to govt':
+    dataset:
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+  '# PhD to other':
+    dataset:
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+  '# PhD unemployed':
+    dataset:
+    - .nan
+    - .nan
+    - .nan
+    - 1
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+  '# PhD unknown':
+    dataset:
+    - .nan
+    - .nan
+    - .nan
+    - 9
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - 23
+    - .nan
+    - .nan
+    - .nan
+    - 5
+    - .nan
+  BS to PhD time to degree, months:
+    dataset:
+    - .nan
+    - .nan
+    - 52
+    - .nan
+    - 60
+    - 60
+    - 60
+    - 60
+    - .nan
+    - 60
+    - .nan
+    - 54
+    - .nan
+    - .nan
+    - 48
+    - 60
+  MS to PhD time to degree, months:
+    dataset:
+    - .nan
+    - .nan
+    - 52
+    - .nan
+    - 60
+    - 48
+    - .nan
+    - 48
+    - .nan
+    - 36
+    - .nan
+    - 48
+    - .nan
+    - .nan
+    - 24
+    - 48
+  PhD Coursework:
+    total ChE formal lecture hours:
+      dataset:
+      - 24
+      - 12
+      - .nan
+      - .nan
+      - 10
+      - 252
+      - 16
+      - 12
+      - 24
+      - 36
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - 11
+    total formal lecture hours:
+      dataset:
+      - .nan
+      - 24
+      - .nan
+      - .nan
+      - 18
+      - 504
+      - 32
+      - .nan
+      - 30
+      - 9
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - 22
+    total required credit hours:
+      dataset:
+      - 72
+      - 90
+      - .nan
+      - .nan
+      - 60
+      - 504
+      - .nan
+      - 16
+      - 63
+      - 45
+      - .nan
+      - 30
+      - .nan
+      - .nan
+      - 60
+      - 70
+    average time to complete coursework:
+      dataset:
+      - .nan
+      - 10
+      - .nan
+      - .nan
+      - 4
+      - 4
+      - 4
+      - 2
+      - 4
+      - 4
+      - .nan
+      - 5
+      - .nan
+      - .nan
+      - 4
+      - 4
+    Deficiency ChE coursework hrs:
+      dataset:
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - 6
+      - 6
+      - 4
+      - .nan
+      - 15
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - .nan
+      - 12
